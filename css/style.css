@@ -3,10 +3,11 @@
   --gray: #696969;
   --grayBorder: #A9A9A9;
   --backColor:#DCDCDC;
+  --backgroundColor: #d2d2c1;
 }
 
 body {
-  background-image: url("images/fundo.png");
+  background: var(--backgroundColor) url('images/fundo.png');
   font-family: Arial, Helvetica, sans-serif;
   width: 100%;
 }
@@ -44,6 +45,7 @@ footer {
 
 .main-content {
   width: 900px;
+  background: white;
 }
 
 .img-principal {
